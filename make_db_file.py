@@ -11,6 +11,7 @@ dbfilename = 'people-file'
 ENDDB = 'enddb.'
 ENDREC = 'endrec.'
 RECSEP = '=>'
+
 def storeDbase(db, dbfilename=dbfilename):
     """сохраняет базу данных в файл"""
     dbfile = open(dbfilename, 'w')
