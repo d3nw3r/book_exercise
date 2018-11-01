@@ -6,8 +6,8 @@ class Manager(Person):
         """zbilshuemo pay for manager percent+bonus"""
         self.pay *= (1.0 + percent + bonus)
 
-tom = Manager(name = 'Tom York', age = 45, pay = 50000)
+"""tom = Manager(name = 'Tom York', age = 45, pay = 50000)
 print(tom.lastName())
 tom.giveRise(0.25)
 print(tom.pay)
-
+"""
